@@ -1,0 +1,13 @@
+name: delaunay-bug
+version: 0
+synopsis: delaunay triangulation double(?) bug
+
+executable:
+ main: main.hs
+ghc-options: -O2
+dependencies:
+  - hgeometry 
+  - hgeometry-combinatorial
+  - base
+  - criterion
+  - deepseq
